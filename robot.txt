@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marcelintospace.github.io/Projet4/sitemap.xml
