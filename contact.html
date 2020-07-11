@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
   <meta name="description" content="La Chouette Agence, communication seo et création site internet responsive sur Lyon. Démarquez vous avec une communications digitale différente mais réussi.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="favicon.png"/>
   <meta name="google-site-verification" content="fcLKUznH0G9JuifI4VvYsQ9kZTy5EnTPi74QjznFGq8" />
   <meta name="robot" content="index, follow">
 
-  <link rel="canonical" href="https://github.com/MarcelintoSpace/Projet4/contact.html" />
+  <link rel="canonical" href="https://marcelintospace.github.io/Projet4/contact.html" />
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -17,11 +17,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 
-  <noscript async src="./js/jquery-2.1.0.js"></noscript>
-  <noscript async src="./js/bootstrap.js"></noscript>
-  <noscript async src="./js/blocs.js"></noscript>
-  <noscript defer src="./js/jquery.touchSwipe.js"></noscript>
-  <noscript async src="./js/gmaps.js"></noscript>
+  <script async src="./js/jquery-2.1.0.js"></script>
+  <script async src="./js/bootstrap.js"></script>
+  <script async src="./js/blocs.js"></script>
+  <script defer src="./js/jquery.touchSwipe.js"></script>
+  <script async src="./js/gmaps.js"></script>
 
     <title>Contacter-nous</title>
 
@@ -94,33 +94,24 @@
   	<div class="container bloc-lg">
   		<div class="row">
   			<div class="col-sm-6">
-  				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+  				<form action="./includes/form_1.php" method="post">
   					<div class="form-group">
-  						<label>
-  							Nom
-  						</label>
+  						<label for="name">Nom</label>
   						<input id="name" class="form-control" required />
   					</div>
-  					<div class="form-group">
-  						<label>
-  							Adresse email
-  						</label>
+            <div class="form-group">
+  						<label for="email">Adresse email</label>
   						<input id="email" class="form-control" type="email" required />
   					</div>
   					<div class="form-group">
-  						<label>
-  							Comment nous avez-vous connu ?
-  						</label>
-  						<input class="form-control" type="email" required id="input_504" />
+  						<label for="form-control">Comment nous avez-vous connu ?</label>
+  						<input id="form-control" type="email" required />
   					</div>
   					<div class="form-group">
-  						<label>
-  							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-  						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+  						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+              <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
   					</div>
-  					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-  						Envoyer
-  					</button>
+  					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
   				</form>
   			</div>
   			<div class="col-sm-6">
@@ -149,22 +140,22 @@
   				<div class="row row-no-gutters social">
   					<div class="col-sm-3">
   						<div class="text-center">
-  							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+  							<a class="social" href="https://twitter.com/explore"><span class="fa fa-twitter icon-md" role="img" aria-label="Twitter"></span></a>
   						</div>
   					</div>
   					<div class="col-sm-3">
   						<div class="text-center">
-  							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+  							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md" role="img" aria-label="Facebook"></span></a>
   						</div>
   					</div>
   					<div class="col-sm-3">
   						<div class="text-center">
-  							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+  							<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md" role="img" aria-label="Dribbble"></span></a>
   						</div>
   					</div>
   					<div class="col-sm-3">
   						<div class="text-center">
-  							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+  							<a class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md" role="img" aria-label="Instagram"></span></a>
   						</div>
   					</div>
   				</div>

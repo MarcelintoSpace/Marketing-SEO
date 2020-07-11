@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #FFFFFF;
 }
 
 .d-bloc .a-btn:hover,
@@ -260,8 +260,8 @@ a:hover {
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+    color:  rgba(0, 0, 0, .7);
+    border-color: #455A64;
 }
 
 .voffset {
@@ -767,7 +767,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #03A9F4;
+    background-color: #FFFFFF;
 }
 
 .bgc-atomic-tangerine {
@@ -872,20 +872,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
